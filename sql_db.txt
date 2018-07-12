@@ -1,0 +1,1 @@
+create table devices (device_id int AUTO_INCREMENT,serial int,wan_ip text,local_ip text,adopted boolean,status boolean,last_online timestamp,PRIMARY Key (device_id));
